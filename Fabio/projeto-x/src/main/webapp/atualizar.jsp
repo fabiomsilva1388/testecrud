@@ -15,7 +15,7 @@
             <div>
                 <label>Id</label>
                 <div>
-                    <input type="text" name="id" maxlength="10" value="<%=request.getParameter("id")%>" disabled="disabled" />
+                    <input type="text" name="id" maxlength="10" value="<%=request.getParameter("id")%>" readonly />
                 </div>
             </div>
             <div>
@@ -45,13 +45,13 @@
             <div>
                 <label>Endereco</label>
                 <div>
-                    <input type="text" name="endereco" maxlength="50" value="<%=request.getParameter("endereco")%>" />
+                    <input type="text" name="endereco" maxlength="50" value="<%=request.getParameter("endereco")%>" required/>
                 </div>
             </div>
             <div>
                 <label>Numero</label>
                 <div>
-                    <input type="text" name="numero" maxlength="80" value="<%=request.getParameter("numero")%>" />
+                    <input type="text" name="numero" maxlength="80" value="<%=request.getParameter("numero")%>" required/>
                 </div>
             </div>
             <div>

@@ -41,13 +41,13 @@
             <div>
                 <label>Endereço</label>
                 <div>
-                    <input type="text" name="endereco" maxlength="250" style="width:300px"/>
+                    <input type="text" name="endereco" maxlength="250" style="width:300px" required/>
                 </div>
             </div>
             <div>
                 <label>Numero</label>
                 <div>
-                    <input type="text" name="numero" maxlength="10" style="width:300px"/>
+                    <input type="text" name="numero" maxlength="10" style="width:300px" required/>
                 </div>
             </div>
             <div>
